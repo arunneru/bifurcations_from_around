@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{cusp} \PYG{o}{=} \PYG{n}{load}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}cusp\PYGZsq{}}\PYG{p}{)}
+\PYG{n}{mu} \PYG{o}{=} \PYG{n}{run}\PYG{p}{(}\PYG{n}{cusp}\PYG{p}{)}
+\PYG{n}{mu} \PYG{o}{=} \PYG{n}{mu} \PYG{o}{+} \PYG{n}{run}\PYG{p}{(}\PYG{n}{cusp}\PYG{p}{,} \PYG{n}{DS}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}\PYGZhy{}\PYGZsq{}}\PYG{p}{)}
+
+\PYG{n}{mu} \PYG{o}{=} \PYG{n}{rl}\PYG{p}{(}\PYG{n}{mu}\PYG{p}{)}
+\PYG{n}{save}\PYG{p}{(}\PYG{n}{mu}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}mu\PYGZsq{}}\PYG{p}{)}
+\PYG{n}{lp1} \PYG{o}{=} \PYG{n}{load}\PYG{p}{(}\PYG{n}{mu}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}LP1\PYGZsq{}}\PYG{p}{),} \PYG{n}{ISW}\PYG{o}{=}\PYG{l+m+mi}{2}\PYG{p}{)}
+
+
+\end{Verbatim}

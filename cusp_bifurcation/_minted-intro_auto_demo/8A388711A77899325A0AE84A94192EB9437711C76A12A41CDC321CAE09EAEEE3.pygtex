@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{cusp} \PYG{o}{=} \PYG{n}{run}\PYG{p}{(}\PYG{n}{lp1}\PYG{p}{)}
+\PYG{n}{cusp} \PYG{o}{=} \PYG{n}{cusp} \PYG{o}{+} \PYG{n}{run}\PYG{p}{(}\PYG{n}{lp1}\PYG{p}{,} \PYG{n}{DS}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}\PYGZhy{}\PYGZsq{}}\PYG{p}{)}
+\PYG{n}{save}\PYG{p}{(}\PYG{n}{cusp}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}cusp\PYGZsq{}}\PYG{p}{)}
+\end{Verbatim}
